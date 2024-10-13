@@ -1,3 +1,4 @@
+import pygame
 
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
@@ -15,3 +16,8 @@ PLAYER_SHOOT_SPEED = 500
 PLAYER_SHOOT_COOLDOWN = 0.3
 
 SHOT_RADIUS = 5
+
+# Set Type Font
+pygame.init()
+FONT = pygame.font.Font('Roboto-Medium.ttf', 30)
+GAME_OVER_FONT = pygame.font.Font('Roboto-Medium.ttf', 60)
